@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bekb0mda3d83d"]
+
+[ext_resource type="PackedScene" uid="uid://bes2p46skt65p" path="res://entities/skeleton.tscn" id="1_ehvyg"]
+[ext_resource type="Script" uid="uid://diguf3rfg5ty0" path="res://entities/skeleton_r.gd" id="2_v4rhh"]
+
+[node name="SkeletonR" instance=ExtResource("1_ehvyg")]
+script = ExtResource("2_v4rhh")
+
+[node name="WallDetector" parent="." index="3"]
+scale = Vector2(3, 1)
+
+[node name="PlayerDetector" parent="." index="5"]
+position = Vector2(0, 3)
+rotation = -6.2831855
+scale = Vector2(10.015, 24.35)
+
+[node name="BoneStartPosition" parent="." index="6"]
+position = Vector2(11, -5)

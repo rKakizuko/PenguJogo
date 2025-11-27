@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://h2riivjajgt4"]
 
 [ext_resource type="PackedScene" uid="uid://dugy5qie6lpek" path="res://entities/spinning_bone.tscn" id="1_5x2lx"]
-[ext_resource type="Script" uid="uid://cyoam1maen5v6" path="res://spinning_bone_r.gd" id="2_vvqah"]
+[ext_resource type="Script" uid="uid://cyoam1maen5v6" path="res://scripts/spinning_bone_r.gd" id="2_vvqah"]
 
 [node name="SpinningBoneR" instance=ExtResource("1_5x2lx")]
 script = ExtResource("2_vvqah")
